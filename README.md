@@ -1,73 +1,70 @@
-# WealthWiseAI
+# Open and edit README.md to resolve conflicts, or replace it entirely
+@'
+# WealthWise AI - Your Personal Finance Companion 💰
 
-# WealthWise - Your Personal Finance Companion 
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-green?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-AI%20Powered-orange?style=flat-square)](https://openai.com/)
 
-Hey there! Welcome to WealthWise - a modern, AI-powered personal finance app that actually helps you manage your money better (not just track it).
+> A modern, AI-powered personal finance management application that actually helps you make better financial decisions.
 
-## What is this? 
+## 🤖 What Makes WealthWise Special?
 
-WealthWise is like having a financial advisor in your pocket, but way cooler and completely free. I built this because I was tired of boring finance apps that just show you charts of how broke you are.
+WealthWise isn't just another expense tracker. It's like having a financial advisor in your pocket, but way cooler and completely free.
 
-## What can it do? 
+### ✨ Key Features
 
-###  **AI Financial Advisor**
-- Ask questions like "How much should I save?" and get real, actionable advice
-- No generic responses - actual helpful financial guidance
-- Available 24/7 (unlike real financial advisors who charge $200/hour)
+- **🤖 AI Financial Advisor**: Get real, actionable financial advice instantly
+- **💰 Smart Budgeting**: 50/30/20 rule integration with intelligent recommendations
+- **🎯 Goal Tracking**: Set and track financial goals with visual progress
+- **📊 Advanced Analytics**: Beautiful charts that actually help you understand your money
+- **💳 Transaction Management**: Easy expense and income tracking
+- **🔐 Secure Authentication**: Your financial data stays private and secure
 
-###  **Smart Budgeting**
-- Track income and expenses without the hassle
-- Visual budget breakdowns that actually make sense
-- Set realistic budgets based on the 50/30/20 rule
+### 🧠 AI Capabilities
 
-###  **Goal Tracking**
-- Set financial goals (vacation, emergency fund, that gaming setup)
-- Track progress with beautiful visualizations
-- Get motivated with milestone celebrations
+- Compound interest explanations and calculations
+- Investment advice for beginners and experts
+- Emergency fund planning strategies
+- Budget optimization recommendations
+- Personalized financial guidance
+- Educational financial content
 
-###  **Analytics That Matter**
-- See where your money actually goes
-- Identify spending patterns (yes, that's a lot of coffee)
-- Monthly insights and recommendations
+## 🚀 Live Demo
 
-## Why I built this 
+**[Try WealthWise Live](https://wealthwise-ai.vercel.app)** ← Deploy here!
 
-I was using like 3 different apps to manage my finances, and none of them felt... human. They were either too complicated (looking at you, enterprise software) or too simple (hello, basic expense trackers).
+## 🛠️ Tech Stack
 
-So I decided to build something that:
-- Actually helps you make better financial decisions
-- Doesn't judge your spending habits (we've all been there)
-- Gives you real advice, not just data dumps
-- Looks good enough that you'll actually want to use it
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes, MongoDB
+- **AI**: OpenAI API with intelligent fallbacks
+- **Authentication**: JWT-based secure auth
+- **Deployment**: Vercel-ready
 
-## Tech Stack 
+## 📱 Screenshots
 
-Built with modern, reliable tools:
+*Coming soon - add screenshots of your beautiful UI!*
 
-- **Next.js 14** - Because React is awesome, and Next.js makes it even better
-- **TypeScript** - Catching bugs before they catch us
-- **Tailwind CSS** - Making things pretty without the CSS headaches
-- **MongoDB** - Storing your data securely
-- **AI Integration** - Smart financial advice that actually makes sense
-
-## Getting Started 
+## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+ (the newer the better)
+- Node.js 18+
 - MongoDB (local or Atlas)
-- A brain (optional, but recommended)
+- OpenAI API key (optional - has fallback responses)
 
 ### Installation
 
 ```bash
-# Clone this beauty
-git clone https://github.com/yourusername/wealthwise.git
-cd wealthwise
+# Clone the repository
+git clone https://github.com/SouparnaChatterjee/WealthWiseAI.git
+cd WealthWiseAI
 
-# Install dependencies (grab some coffee, this might take a minute)
+# Install dependencies
 npm install
 
-# Set up your environment variables
+# Set up environment variables
 cp .env.example .env.local
 # Edit .env.local with your actual values
 
